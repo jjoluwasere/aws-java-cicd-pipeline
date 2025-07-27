@@ -1,0 +1,35 @@
+<settings>
+
+<servers>
+  <server>
+    <id>my-company-JJ-devops-cicd</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+  </server>
+</servers>
+
+<profiles>
+  <profile>
+    <id>my-company-JJ-devops-cicd</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>my-company-JJ-devops-cicd</id>
+        <url>https://my-company-249004168001.d.codeartifact.eu-central-1.amazonaws.com/maven/JJ-devops-cicd/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+
+<mirrors>
+  <mirror>
+    <id>my-company-JJ-devops-cicd</id>
+    <name>my-company-JJ-devops-cicd</name>
+    <url>https://my-company-249004168001.d.codeartifact.eu-central-1.amazonaws.com/maven/JJ-devops-cicd/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+
+</settings>
