@@ -16,7 +16,7 @@ artifacts:
   files:
     - target/*.jar
     - target/*.war
-    - target/nextwork-web-project.war
+    - target/jj-project-devops-cicd.war
     - appspec.yml
     - scripts/**/*
   discard-paths: no
