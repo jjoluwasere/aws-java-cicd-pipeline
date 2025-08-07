@@ -1,4 +1,4 @@
-# ☁️ Java Web App on AWS EC2 with CI/CD Pipeline
+# Java Web App on AWS EC2 with CI/CD Pipeline
 
 This repository demonstrates the deployment of a **Java-based web application** on AWS EC2, showcasing how to provision infrastructure, configure the environment, and set up a fully automated CI/CD pipeline.
 
@@ -25,7 +25,7 @@ This project covers:
 
 ---
 
-## 📐 Architecture
+## Architecture
 
 1. **Developer pushes code** to GitHub  
 2. **AWS CodePipeline** triggers a new pipeline run  
